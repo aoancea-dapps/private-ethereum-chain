@@ -10,7 +10,7 @@ In this series we will test the following techniques:
 
 ## Frequent commands
 - ``geth --datadir ./datadir init genesis.json``
-- ``geth --datadir .\datadir\ account new``
+- ``geth --datadir ./datadir account new``
 - ``geth --datadir ./datadir console --networkid 2019``
 - ``geth --datadir ./datadir_new --networkid 2019 --port 30306 --nodiscover console --ipcdisable``
 - ``personal.unlockAccount(eth.accounts[0], "password")``
