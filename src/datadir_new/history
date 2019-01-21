@@ -1,0 +1,22 @@
+eth.accounts
+admin.nodeInfo
+admin.peers
+admin.addPeer(enode://1a98c44afa91118afa38730ca4cc0f53092b0882eb8849abc55ad1b5270e6df6661aad2d8ec30a23e8fff0623da5c43ff62e98f69220cdab961171c3bb20e4e9@127.0.0.1:30306?discport=0)
+admin.addPeer("enode://1a98c44afa91118afa38730ca4cc0f53092b0882eb8849abc55ad1b5270e6df6661aad2d8ec30a23e8fff0623da5c43ff62e98f69220cdab961171c3bb20e4e9@127.0.0.1:30306?discport=0")
+admin.peers
+eth.accounts
+admin.nodeInfo
+admin.addPeer("enode://1a98c44afa91118afa38730ca4cc0f53092b0882eb8849abc55ad1b5270e6df6661aad2d8ec30a23e8fff0623da5c43ff62e98f69220cdab961171c3bb20e4e9@127.0.0.1:30306")
+admin.peers
+82eb8849abc55ad1b5270e6df6661aad2d8ec30a23e8fff0623da5c43ff62e98f69220cdab961171c3bb
+admin.peers
+miner.start(1)
+eth.accounts
+eth.blockNumber
+eth.getBalance("0x750802887ad419095501fa7af97aedaebc5788fc")
+eth.accounts
+eth.blockNumber
+eth.getBalance("0x750802887ad419095501fa7af97aedaebc5788fc")
+eth.getBalance("0x735d3a47c47018698a9fce42637fbda69d0b6d95")
+eth.sendTransaction({from: "0x735d3a47c47018698a9fce42637fbda69d0b6d95", to: "0x750802887ad419095501fa7af97aedaebc5788fc", value: eth.toWei(3, "ether")})
+eth.sendTransaction({from: "0x735d3a47c47018698a9fce42637fbda69d0b6d95", to: "0x750802887ad419095501fa7af97aedaebc5788fc", value: web3.toWei(3, "ether")})
