@@ -8,7 +8,7 @@ In this series we will test the following techniques:
 - import accounts from the first node in the second node - in order to be able to send ether through the second node from one account to the other
 - send ether between the accounts on the private chain using the second node
 
-## Frequent commands
+### Frequent commands
 - ``geth --datadir ./datadir init genesis.json``
 - ``geth --datadir ./datadir account new``
 - ``geth --datadir ./datadir console --networkid 2019``
