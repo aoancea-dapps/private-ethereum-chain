@@ -1,0 +1,24 @@
+
+eth.accounts
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
+eth.blockNumber
+miner.start(1)
+miner.stop()
+eth.getBalance(eth.accounts[1])
+eth.getBalance(eth.accounts[0])
+eth.blockNumber
+eth.accounts
+eth.getBalance("0x735d3a47c47018698a9fce42637fbda69d0b6d95")
+eth.getBalance("0x750802887ad419095501fa7af97aedaebc5788fc")
+eth.sendTransaction({from: "0x735d3a47c47018698a9fce42637fbda69d0b6d95", to: "0x750802887ad419095501fa7af97aedaebc5788fc", value: web3.toWei(1, "ether")})
+eth.getBalance("0x750802887ad419095501fa7af97aedaebc5788fc")
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
+eth.sendTransaction({from: "0x735d3a47c47018698a9fce42637fbda69d0b6d95", to: "0x750802887ad419095501fa7af97aedaebc5788fc", value: web3.toWei(4, "ether")})
+miner.start(1)
+miner.stop()
+eth.getBalance(eth.accounts[1])
+eth.getTransaction("0xe541f6aa40c43750db50476724975ab6d9b1615d2fb61fe920ebb9a3f1812399")
+eth.getTransaction("0xe1a7ded648617c9e2ae0f01feb0ab51e6201c89b30879a701c392be68a5e823e")
+eth.getBlock("0x65b66718e44f1c676c23fe24313a4b7044b78da3ab98ea91c5cbefc43c46053e")

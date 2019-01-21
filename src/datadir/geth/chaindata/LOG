@@ -1,0 +1,31 @@
+=============== Jan 18, 2019 (EET) ===============
+11:37:55.060791 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:37:55.065815 db@open opening
+11:37:55.066791 version@stat F·[] S·0B[] Sc·[]
+11:37:55.068825 db@janitor F·2 G·0
+11:37:55.068825 db@open done T·3.01ms
+=============== Jan 18, 2019 (EET) ===============
+11:40:35.436915 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:40:35.436915 version@stat F·[] S·0B[] Sc·[]
+11:40:35.436915 db@open opening
+11:40:35.436915 journal@recovery F·1
+11:40:35.438918 journal@recovery recovering @1
+11:40:35.451915 memdb@flush created L0@2 N·9 S·553B "H\xb0R..\x15S\xc1,v3":"r\x00\x00..\x15S\xc1,v5"
+11:40:35.453921 version@stat F·[1] S·553B[553B] Sc·[0.25]
+11:40:35.460914 db@janitor F·3 G·0
+11:40:35.460914 db@open done T·24.0001ms
+=============== Jan 21, 2019 (EET) ===============
+09:01:52.179024 db@close closing
+09:01:52.183024 db@close done T·3.9999ms
+=============== Jan 21, 2019 (EET) ===============
+09:38:50.705525 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:38:50.708873 version@stat F·[1] S·553B[553B] Sc·[0.25]
+09:38:50.708873 db@open opening
+09:38:50.709884 journal@recovery F·1
+09:38:50.712486 journal@recovery recovering @3
+09:38:50.717514 memdb@flush created L0@5 N·2 S·241B "Dat..ion,v11":"Las..der,v12"
+09:38:50.719484 version@stat F·[2] S·794B[794B] Sc·[0.50]
+09:38:50.729516 db@janitor F·4 G·0
+09:38:50.729516 db@open done T·20.6438ms
+09:52:59.625994 db@close closing
+09:52:59.640028 db@close done T·14.0338ms
