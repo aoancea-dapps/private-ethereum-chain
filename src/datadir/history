@@ -29,3 +29,23 @@ miner.start(1)
 miner.stop()
 eth.blockNumber
 eth.accounts
+eth.getBalance(eth.accounts[0])
+eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[2], value: web3.ToWei(3, "ether")})
+eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[2], value: web3.toWei(3, "ether")})
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[2])
+eth.blockNumber
+admin.addPeer("enode://1a98c44afa91118afa38730ca4cc0f53092b0882eb8849abc55ad1b5270e6df6661aad2d8ec30a23e8fff0623da5c43ff62e98f69220cdab961171c3bb20e4e9@127.0.0.1:30306?discport=0")
+eth.blockNumber
+eth.getBalance(eth.accounts[2])
+admin.peers
+miner.start(1)
+miner.stop()
+eth.getBalance(eth.accounts[2])
+eth.accounts
+miner.start(1)
+miner.stop()
+eth.accounts
+eth.getBalance(eth.accounts[1])
+web3.fromWei(eth.getBalance(eth.accounts[1]), "ether")
+eth.blockNumber
