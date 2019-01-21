@@ -13,3 +13,4 @@ In this series we will test the following techniques:
 - https://medium.com/coinmonks/ethereum-setting-up-a-private-blockchain-67bbb96cf4f1
 - https://hackernoon.com/set-up-a-private-ethereum-blockchain-and-deploy-your-first-solidity-smart-contract-on-the-caa8334c343d
 - https://ethereum.stackexchange.com/questions/30439/error-unknown-account
+- https://www.cryptocompare.com/coins/guides/how-to-do-an-ethereum-transaction-check-your-balance/
